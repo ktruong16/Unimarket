@@ -5,7 +5,7 @@ import { getStorage } from "firebase/storage";
 import { getFunctions } from 'firebase/functions';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCr10TXAJS1Cd92EUiojxPlHNsoIvSnTiw",
+    apiKey: "",
     authDomain: "unimarket-a7ff4.firebaseapp.com",
     projectId: "unimarket-a7ff4",
     storageBucket: "unimarket-a7ff4.appspot.com",

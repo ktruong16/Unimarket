@@ -1,0 +1,88 @@
+/*questions? ask dev nicole nguyen*/
+
+/*import font family and standardize the name from font folder*/
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: local("Montserrat-Italic"), url("../fonts/Montserrat-Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-BoldItalic";
+    src: local("Montserrat-BoldItalic"), url("../fonts/Montserrat-BoldItalic.ttf") format("truetype");
+}
+
+/*user history button to link user to thier history from the profile page*/
+.button-padding{
+    padding-top: 30px;
+}
+
+.userhistory{
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+    scale: 80%;
+    transition-duration: 0.2s;
+    border: transparent;
+}
+
+
+button.userhistory:hover{
+    filter: brightness(90%);
+}
+
+/*this container encloses all of the text and information provided for user profile
+  it also standardizes the text and formatting of all content inside*/
+.profile-padding{
+    padding: 60px;
+    background-image: url('../assets/profilebackground.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+div.profilecontainer{
+    min-width: fit-content;
+    width: 40%;
+    border-radius: 138px;
+    padding:45px;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(149, 185, 178, 0.509) 0%, rgba(233, 221, 192, 0.627) 100%);
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.userprofile-username{
+    font-family: "Montserrat-BoldItalic";
+    font-size: 40px;
+}
+img.profilepic{
+    scale: 90%;
+    padding: 10px;
+}
+p.userprofile{
+    font-family: "Montserrat-Italic";
+}
+h1.userprofile{
+    font-family: "Montserrat-Italic";
+    color: #484848;
+}
+
+/*inside this is the white text containing user information and standardizes its format*/
+div.userinformation{
+    border-radius: 30px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*edits the background layout of the page*/
+img.profilebackground{
+    position: relative;
+    bottom: 200px;
+    z-index: 0;
+}
+p.userprofile{
+    position: relative;
+    top: 8px;
+}
+

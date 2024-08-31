@@ -1,0 +1,117 @@
+/*questions? ask dev nicole nguyen*/
+
+/*import font family and standardize the name from font folder*/
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: local("Montserrat-Italic"), url("../fonts/Montserrat-Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-BoldItalic";
+    src: local("Montserrat-BoldItalic"), url("../fonts/Montserrat-BoldItalic.ttf") format("truetype");
+}
+
+/*container set-up and padding*/
+.main-container{
+    padding-top: 60px;
+    padding-bottom: 11%;
+    background-image: url('../assets/background-label.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom;
+    background-size: contain;
+}
+
+/*font editing*/
+h2{
+    font-family: "Montserrat-BoldItalic";
+    color: #2D564E !important; 
+}
+h3{
+    font-family: "Montserrat-Italic";
+    font-size: 15px !important;
+    color: #484848 !important;
+    padding-right: 550px;
+}
+
+/*container for the login information*/
+div.SignIn{
+    background: linear-gradient(180deg, rgba(45, 86, 78, 0.48) 0%, #F2ECDB 100%);    border-radius: 125px;
+    height: 470px;
+    width: 1000px;
+    padding: 50px;
+    top: 40px; 
+    margin: auto;
+    font-family: "Montserrat-Italic";
+}
+
+/*container padding for user input*/
+.inputbox{
+    padding-bottom: 20px;
+}
+
+/*changes the input boxes of the email and password for user to input*/
+input[type=password], input[type=email] {
+    border-radius: 30px;
+    width: 700px;
+    border-color: transparent;
+    height: 50px;
+}
+::placeholder{
+    color: lightgrey;
+    font-size: 20px;
+}
+
+/*forgotpassword and signin visual edits*/
+button a{
+    text-decoration: none;
+    background-color: transparent;
+    transition-duration: .3s;
+    border-color: transparent;
+    color: #2D564E;
+    
+}
+
+.signinbutton{
+    border-radius: 20px;
+    border: 2px solid #2D564E;
+    padding: 5px;
+    width: 140px;
+    min-width: fit-content;
+    min-height: fit-content;
+    background-color: rgba(255, 255, 255, 0.731);
+    transition: 0.2s ease-out;
+}
+.signinbutton:hover{
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 5px;
+    border: transparent;
+    background: #2D564E;
+    color: white;
+    transition: 0.2s ease-out;
+}
+
+.forgotpass{
+    border-radius: 4px;
+    border: 2px solid #2D564E;
+    padding: 5px;
+    width: 140px;
+    min-width: fit-content;
+    min-height: fit-content;
+    background-color: rgba(255, 255, 255, 0.731);
+    transition: 0.2s ease-out;
+}
+
+.forgotpass:hover{
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 5px;
+    border: transparent;
+    background: #2D564E;
+    color: white;
+    transition: 0.2s ease-out;
+}
+
+.singin-padding1{
+    height: 10px;
+}

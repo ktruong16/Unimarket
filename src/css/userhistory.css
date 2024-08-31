@@ -1,0 +1,126 @@
+/*questions? ask dev nicole nguyen*/
+
+/*import font family and standardize the name from font folder*/
+/*questions? ask dev nicole nguyen*/
+
+/*import font family and standardize the name from font folder*/
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: local("Montserrat-Italic"), url("../fonts/Montserrat-Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-BoldItalic";
+    src: local("Montserrat-BoldItalic"), url("../fonts/Montserrat-BoldItalic.ttf") format("truetype");
+}
+
+.history-padding{
+    padding: 40px;
+}
+
+.history-title {
+    font-family: "Montserrat-BoldItalic";
+}
+
+.background-border{
+    background-image: url('../assets/background5.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.history-padding1{
+    box-sizing: border-box;
+    top: 40px;
+    font-family: "Montserrat-Italic";
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding: 30px;
+    width: 40%;
+    background: linear-gradient(180deg, rgba(246, 230, 196, 0.19) 0%, rgba(129, 170, 150, 0.14) 100%);
+    border-radius: 50px;
+    margin: auto;
+    color: #2D564E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(3px);
+}
+
+.history-input[type="text"]{
+    max-width: 300px;
+    margin: auto;
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to next line if there's not enough space */
+    justify-content: space-between; /* Distribute items evenly with space between them */
+    align-items: center; /* Center items vertically within the container */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"]:hover{
+    transition: 0.3s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input[type="text"]:focus{
+    transition: 0.3s;
+    border: 2px solid #3a6d63;
+}
+
+.history-submit{
+    border-radius: 20px;
+    border: 2px solid #2D564E;
+    padding: 5px;
+    width: 140px;
+    min-width: fit-content;
+    min-height: fit-content;
+    background-color: rgba(255, 255, 255, 0.731);
+    transition: 0.2s ease-out;
+
+}
+
+.history-submit:hover{
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 10px;
+    border: transparent;
+    background: #2D564E;
+    color: white;
+    transition: 0.2s ease-out;
+}
+
+button:hover{
+    filter: brightness(90%);
+}
+
+.delete-button{
+    font-family: "Montserrat-Italic";
+    color:#b52a22;
+    background-color: rgba(255, 255, 255, 0.562);
+    width: fit-content;
+    height: fit-content;
+    transition: 0.2s;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: transparent;
+}
+
+.delete-button:hover{
+    transition: 0.2s;
+    background-color: #b52a22;
+    color: white;
+}
+
+li{
+    padding-top: 10px;
+    list-style: none;
+}
+
+.display-list{
+    padding-top: 20px;
+}
+
+.userhistory-links{
+    color: #498f81;
+}
+
+.userhistory-links:hover{
+    font-family: "Montserrat-BoldItalic";
+}

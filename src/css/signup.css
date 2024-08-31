@@ -1,0 +1,85 @@
+/*questions? ask dev nicole nguyen*/
+
+/*import font family and standardize the name from font folder*/
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: local("Montserrat-Italic"), url("../fonts/Montserrat-Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-BoldItalic";
+    src: local("Montserrat-BoldItalic"), url("../fonts/Montserrat-BoldItalic.ttf") format("truetype");
+}
+
+.main-container{
+    padding-top: 60px;
+    padding-bottom: 11%;
+    background-image: url('../assets/background-label.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom;
+    background-size: contain;
+}
+
+/*main container*/
+.SignUp{
+    background: linear-gradient(180deg, rgba(45, 86, 78, 0.48) 0%, #F2ECDB 100%);    border-radius: 125px;
+    height: 750px;
+    width: 1000px;
+    padding: 50px;
+    margin: auto;
+    font-family: "Montserrat-Italic";
+}
+
+/*form container padding*/
+.signup-userinput{
+    padding-left: 100px;
+}
+
+/*text description edits*/
+p.desc{
+    padding-top: 10px;
+}
+p.warning{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+h3{
+    padding-bottom: 2%;
+}
+
+/*userinput box edits*/
+input[type=password], input[type=email], input[type=text], select[type=school] {
+    margin: auto;
+    border-radius: 30px;
+    width: 700px;
+    border-color: transparent;
+    height: 50px;
+    padding-left: 10%;
+}
+::placeholder{
+    color: lightgrey;
+    font-size: 20px;
+    bottom: 3px;
+}
+
+/*button edit*/
+.signupbutton{
+    border-radius: 20px;
+    border: 2px solid #2D564E;
+    padding: 5px;
+    width: 140px;
+    min-width: fit-content;
+    min-height: fit-content;
+    background-color: rgba(255, 255, 255, 0.731);
+    transition: 0.2s ease-out;
+    margin-right: 120px;
+}
+.signupbutton:hover{
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 5px;
+    border: transparent;
+    background: #2D564E;
+    color: white;
+    transition: 0.2s ease-out;
+}

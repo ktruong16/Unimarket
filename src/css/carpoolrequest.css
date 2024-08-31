@@ -1,0 +1,74 @@
+/*questions? ask dev nicole nguyen*/
+
+/*import font family and standardize the name from font folder*/
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: local("Montserrat-Italic"), url("../fonts/Montserrat-Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-BoldItalic";
+    src: local("Montserrat-BoldItalic"), url("../fonts/Montserrat-BoldItalic.ttf") format("truetype");
+}
+
+/*cotainer regulates the page*/
+.container-carpool{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    font-family: "Montserrat-Italic";
+    background-image: url(../assets/carpoolbackground1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.carpool-link{
+    color: #287485;
+    transition: 0.2s ease-in;
+}
+
+.carpool-link:hover{
+    font-family: "Montserrat-BoldItalic";
+    transition: 0.2s ease-in;
+}
+
+label{
+    color: #7A6736;
+}
+
+input{
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+textarea{
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.carpoolrequest-form{
+    backdrop-filter: blur(3px) ;
+    background: linear-gradient(180deg, rgba(149, 185, 178, 0.509) 0%, rgba(233, 221, 192, 0.627) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.carpoolrequest-buttons{
+    border-radius: 20px;
+    border: 2px solid #2D564E;
+    padding: 5px;
+    width: 140px;
+    min-width: fit-content;
+    min-height: fit-content;
+    background-color: rgba(255, 255, 255, 0.731);
+    transition: 0.2s ease-out;
+}
+
+.carpoolrequest-buttons:hover{
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 10px;
+    border: transparent;
+    background: #2D564E;
+    color: white;
+    transition: 0.2s ease-out;
+}
